@@ -47,7 +47,7 @@ app.use('/api-docs',swaggerUi.serve,swaggerUi.setup(swaggerSpec))
 app.listen(4500, async () => {
     try {
         await connection
-        console.log("Database connected to Server");
+        console.log("Database Connected to Server");
     } catch (error) {
         console.log("Error while Connecting");
     }
